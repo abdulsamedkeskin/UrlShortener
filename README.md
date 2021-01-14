@@ -2,23 +2,30 @@
 UrlShortener with Python and React
 
 # Installation
-```python
+```shell
 cd backend
 pip install -r requirements.txt
 ```
-```javascript
+```shell
 cd frontend
-npm install or yarn
+npm install
+```
+or
+```shell
+yarn
 ```
 # Starting the app
-```python
+```shell
 cd backend
 python server.py
 ```
 
-```javascript
-npm start or yarn start
+```shell
+npm start
 ```
-
+or
+```shell
+yarn start
+```
 
 # License
