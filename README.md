@@ -11,8 +11,8 @@ cd frontend
 npm install
 ```
 # Starting the app
-```python server.py```
-```npm start```
+```cd backend && python server.py```and
+```cd frontend && npm start```
 
 # License
 MIT License
