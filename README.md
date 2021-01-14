@@ -11,7 +11,7 @@ cd frontend
 npm install
 ```
 # Starting the app
-```console
+```shell
 cd backend
 python server.py
 ```
