@@ -1,6 +1,6 @@
 # UrlShortener
 UrlShortener with Python and React <br/>
-Live Demo: <urlkisa.rf.gd>
+Live Demo: <http://urlkisa.rf.gd>
 # Installation
 ```shell
 cd backend
