@@ -15,7 +15,7 @@ npm install
 cd backend
 python server.py
 ```
-
+and
 ```shell
 npm start
 ```
