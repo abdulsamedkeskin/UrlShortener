@@ -50,7 +50,7 @@ const HomePage = () => {
           )}
           <form onSubmit={add}>
             <input
-              type="text"
+              type="url"
               onChange={(e) => setlink(e.target.value)}
               placeholder="Linkinizi Giriniz "
               e
