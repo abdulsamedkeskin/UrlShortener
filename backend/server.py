@@ -5,7 +5,7 @@ import random, string
 from flask import request
 from flask_cors import CORS
 
-client = MongoClient('mongodburl')
+client = MongoClient('mongodb+srv://admin:1XTjiXx0P9NJLrvb@cluster0.ldihb.mongodb.net/UrlShortener?retryWrites=true&w=majority')
 db = client['UrlShortener']
 db_collection = db['UrlShortener']
 
@@ -54,7 +54,7 @@ def add():
                 "short": short_link
             }
             add = db_collection.insert_one(insert_data)
-            return {"success": True, "url": "http://urlkisa.rf.gd/{}/".format(short_link)}
+            return {"success": True, "url": "http://kisalinkk.rf.gd/{}/".format(short_link)}
         except:
             return {"Yanlış İstek":"Hata"}
     return check()
