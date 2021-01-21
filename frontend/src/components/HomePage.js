@@ -53,7 +53,8 @@ const HomePage = () => {
               type="url"
               onChange={(e) => setlink(e.target.value)}
               placeholder="Linkinizi Giriniz "
-              e
+              pattern="http(s?)(:\/\/)((www.)?)(([^.]+)\.)([^.]+)"
+              required
             />
             <button type="button" className="btn btn-dark" onClick={add}>
               Linki Kısalt

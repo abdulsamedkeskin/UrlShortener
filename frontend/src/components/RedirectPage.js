@@ -5,7 +5,6 @@ import axios from "axios";
 const RedirectPage = () => {
   const [redirect, setredirect] = useState("");
   const link = useParams();
-  console.log(link.link);
   useEffect(() => {
     axios
       .get(`https://shorturlbackend.herokuapp.com/${link.link}`)
