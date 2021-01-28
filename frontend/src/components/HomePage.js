@@ -7,11 +7,12 @@ const HomePage = () => {
   const [newlink, setnewlink] = useState("");
   const [yourlink, setyourlink] = useState("");
   const [loading, setloading] = useState(false);
+
   const add = (e) => {
     e.preventDefault();
     setloading(true);
     axios
-      .post("https://shorturlbackend.herokuapp.com/add", {
+      .post("https://ShortUrl.abdulsamedkeski.repl.co/add", {
         link: link,
       })
       .then((res) => {
