@@ -1,6 +1,6 @@
 # UrlShortener
 UrlShortener with Python and React <br/>
-Live Demo: <http://kisalinkk.rf.gd>
+Live Demo: <https://kisalink.netlify.app/>
 # Installation
 ```shell
 cd backend
